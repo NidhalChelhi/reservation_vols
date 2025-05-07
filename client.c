@@ -231,4 +231,5 @@
      }
  
      close(sock);
-     return
+     return 0;
+}
