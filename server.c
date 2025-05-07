@@ -1,10 +1,3 @@
-/**
- * Flight Reservation System - Server Implementation
- * PSR Mini Project - ENIC 2nd Year
- * 
- * This server handles flight reservation requests from multiple agencies
- * using multithreading and TCP protocol.
- */
  #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>

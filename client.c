@@ -1,10 +1,3 @@
-/**
- * Flight Reservation System - Client (Agency) Implementation
- * PSR Mini Project - ENIC 2nd Year
- * 
- * This client represents a travel agency that connects to the server
- * to make flight reservations, cancellations and other operations.
- */
  #include <stdio.h>
  #include <stdlib.h>
  #include <string.h>
@@ -14,7 +7,7 @@
  #include <arpa/inet.h>
  
  #define MAX_BUFFER 1024
- #define SERVER_IP "192.168.229.142" // Kali Linux IP
+ #define SERVER_IP "192.168.229.142" // TODO: Change to the server's IP address
  #define PORT 8080
  
  /**
